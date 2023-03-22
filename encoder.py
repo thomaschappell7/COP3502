@@ -7,7 +7,7 @@ def menu():
 
 
 def encode(digit):
-    password = ' '
+    password = ''
     for char in digit:
         num = int(char)
         num += 3
